@@ -35,23 +35,22 @@
                 x:Name="lblacc"
                 WidthRequest="150"
                 HorizontalTextAlignment="Center"/>
-            <VerticalStackLayout
-                Padding="20,0"
-                Spacing="5"
-                HorizontalOptions="Center">
-                <Button
-                    x:Name="btnAccount"
-                    Text="Készletfiók"
-                    Clicked="btnAccount_Clicked"/>
-                <Button
-                    x:Name="btnSettings"
-                    Text="Beállítások"
-                    Clicked="btnSettings_Clicked"/>
-                <Button
-                    x:Name="btnPrint"
-                    Text="Nyomtatás"
-                    Clicked="btnPrint_Clicked"/>
-            </VerticalStackLayout>
+            <Button
+                x:Name="btnAccount"
+                Text="Készletfiók"
+                Clicked="btnAccount_Clicked"/>
+            <Button
+                x:Name="btnSettings"
+                Text="Beállítások"
+                Clicked="btnSettings_Clicked"/>
+            <Button
+                x:Name="btnPrint"
+                Text="Nyomtatás"
+                Clicked="btnPrint_Clicked"/>
+            <Button
+                x:Name="btnContact"
+                Text="Névjegy"
+                Clicked="btnContact_Clicked"/>
         </VerticalStackLayout>
     </ScrollView>
 

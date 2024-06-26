@@ -29,6 +29,11 @@ namespace KeszletFiok
             Shell.Current.GoToAsync(nameof(Print));
         }
 
+        private void btnContact_Clicked(object sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync(nameof(KeszletFiok.views.Contact));
+        }
+
         public MainPage()
         {
             InitializeComponent();
