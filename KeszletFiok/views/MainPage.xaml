@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KeszletFiok.MainPage"
+             Appearing="ContentPage_Appearing">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="150"
+                WidthRequest="150"
+                x:Name="qrw"/>
+            <Label
+                x:Name="lblw"
+                WidthRequest="150"
+                HorizontalTextAlignment="Center"/>
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="150"
+                WidthRequest="150"
+                x:Name="qrr"/>
+            <Label
+                x:Name="lblr"
+                WidthRequest="150"
+                HorizontalTextAlignment="Center"/>
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="150"
+                WidthRequest="150"
+                x:Name="qrAcc"/>
+            <Label
+                x:Name="lblacc"
+                WidthRequest="150"
+                HorizontalTextAlignment="Center"/>
+            <HorizontalStackLayout
+                Padding="30,0"
+                Spacing="15"
+                HorizontalOptions="End">
+                <Button
+                    x:Name="btnAccount"
+                    Text="Készletfiók"
+                    HorizontalOptions="Start"
+                    Clicked="btnAccount_Clicked"/>
+                <Button
+                    x:Name="btnSettings"
+                    Text="Beállítások"
+                    HorizontalOptions="End"
+                    Clicked="btnSettings_Clicked"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

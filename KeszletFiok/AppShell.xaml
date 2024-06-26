@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="KeszletFiok.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:KeszletFiok"
+    xmlns:views="clr-namespace:KeszletFiok.views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="KeszletFiok">
+
+    <ShellContent
+        Title="Kezdőlap"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
