@@ -9,6 +9,7 @@ namespace KeszletFiok
             InitializeComponent();
             Routing.RegisterRoute(nameof(Settings),typeof(Settings));
             Routing.RegisterRoute(nameof(Account), typeof(Account));
+            Routing.RegisterRoute(nameof(Print), typeof(Print));
         }
     }
 }

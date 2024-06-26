@@ -6,7 +6,7 @@
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
-            Spacing="15">
+            Spacing="5">
             <Label Text="készletfiók: "/>
             <Entry x:Name="inputAccount"/>
             <Label Text="első fiók: "/>

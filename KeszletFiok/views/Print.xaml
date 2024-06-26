@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KeszletFiok.views.Print"
+             Title="Print">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="5">
+        <Image
+            x:Name="qrPrint"
+            WidthRequest="150"
+            HeightRequest="150"
+            HorizontalOptions="Center"/>
+        <Label
+            x:Name="lblPrint"
+            Text="Állíts be nyomtató számot!"
+            HorizontalOptions="Center"/>
+        <Entry
+            x:Name="inputPrint"/>
+        <Button
+            x:Name="btnSave"
+            Text="mentés"
+            Clicked="btnSave_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

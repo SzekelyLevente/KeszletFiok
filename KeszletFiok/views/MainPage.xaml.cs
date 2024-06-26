@@ -24,6 +24,11 @@ namespace KeszletFiok
             check();
         }
 
+        private void btnPrint_Clicked(object sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync(nameof(Print));
+        }
+
         public MainPage()
         {
             InitializeComponent();

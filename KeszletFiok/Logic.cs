@@ -26,7 +26,7 @@ namespace KeszletFiok
 
         public void Update(string key, string value)
         {
-            if(value.Length!=12)
+            if(value.Length!=12 && key=="firstStorage" && key=="account")
             {
                 throw new Exception("A beolvasott érték nem 12 karakter hosszú!");
             }
